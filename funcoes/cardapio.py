@@ -21,5 +21,6 @@ def obterPreco(a) -> float:
 exibirCardapio()
 total = 0
 while True:
-    op = int(input("Digite sua opção: (1), (2), (3)"))
-    
+    op = int(input("Digite sua opção: "))
+    if op == 4:
+        break
